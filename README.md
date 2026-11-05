@@ -76,6 +76,10 @@ This opens the app in your browser (usually `http://localhost:8501`). Steps in t
 
 1. **Upload data** — upload `knesset_25.xlsx` (or any similarly-shaped CSV/Excel file)
    using the file picker in the sidebar.
+   > **Note:** the app does not load a dataset automatically, so you need to upload a
+   > file every time you open it. To try it quickly, download `knesset_25.xlsx` from
+   > this repository (open the file on GitHub and click the download icon) and upload
+   > it in the sidebar.
 2. **Group & aggregate** — pick the column to group by (e.g. `city_name`), an
    aggregation function (`sum`, `mean`, `count`, ...), and optionally exclude
    ID-like columns (e.g. `ballot_code`) that shouldn't be aggregated together with
